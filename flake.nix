@@ -19,6 +19,7 @@
         buildInputs = with pkgs; [
           sqlite sqlint  # Old
           litecli  # goated
+          sqlitebrowser  # gui
  
         ];  # deps needed at runtime.
         GREETING = "Hello, Nix!";
