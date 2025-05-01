@@ -19,7 +19,8 @@
         buildInputs = with pkgs; [
           sqlite sqlint  # Old
           litecli  # goated
-          sqlitebrowser  # gui
+          sqlitebrowser  # gui, not usefull in headless
+          sqlite-web  # gui, can host in headless server
  
         ];  # deps needed at runtime.
         GREETING = "Hello, Nix!";
