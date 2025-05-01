@@ -17,7 +17,8 @@
     {
       devShells.${currentSystem}.default = pkgs.mkShell { 
         buildInputs = with pkgs; [
-          sqlite sqlint
+          sqlite sqlint  # Old
+          litecli  # goated
  
         ];  # deps needed at runtime.
         GREETING = "Hello, Nix!";
